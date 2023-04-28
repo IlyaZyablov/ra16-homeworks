@@ -10,7 +10,7 @@ class Store extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      icon: 'view_module',
+      icon: 'view_list',
     };
   }
 

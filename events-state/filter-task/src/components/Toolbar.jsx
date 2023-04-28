@@ -12,7 +12,8 @@ class Toolbar extends React.Component {
       <div> 
         {this.props.filters.map((elem, i) =>
           <Button 
-            key={i} 
+            key={i}
+            variant="outline-secondary"
             className={`me-3 mt-3 ${(elem === this.props.selected) ? 'active' : ''}`}
             onClick={this.props.onSelectFilter}
           >
